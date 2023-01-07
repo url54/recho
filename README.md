@@ -1,9 +1,9 @@
 # Recho v1.0.0
 ---
----
 #### Summary:
 A GNU UNIX style "echo" command line utility with added Base64 functionality. Recho offers all the functionality of 
 traditional ECHO, but allows the user to encode/decode strings into/from Base64. 
+
 ---
 #### Usage:
 Recho has three switches that can be utilized from the command line:
@@ -13,6 +13,7 @@ Recho has three switches that can be utilized from the command line:
 |                     `-h`                      |          to display runtime help           |
 |                     `-tb`                     |  to convert the passed string "to-base64"  |
 |`-fb`| to convert the passed string "from-base64" |
+
 ---
 #### Examples:
 The following are the example uses for Recho:
@@ -31,7 +32,7 @@ SGVsbG8gd29ybGQh
 # To decode something in base64, pass the -fb switch, which also removes the newline character.
 > recho.exe -fb "SGVsbG8gd29ybGQh"
 Hello World!
-# To display the inline help scree, pass the -h switch.
+# To display the inline help screen, pass the -h switch.
 recho: GNU ECHO re-written in Rust with added functionality
 Usage and Examples:
 Switches:
